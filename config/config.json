@@ -11,7 +11,7 @@
     "username": "n25wc2nbej44nkdg",
     "password": "ptvvocwepcpy4ivq",
     "host": "w29ifufy55ljjmzq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-    "dialect": "ENTER_DB_TYPE"
+    "dialect": "mysql"
   },
   "test": {
     "database": "heroku_38034b0ac6d41c9",
