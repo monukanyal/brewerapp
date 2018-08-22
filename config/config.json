@@ -1,0 +1,23 @@
+{
+  "development": {
+    "database": "brewer_db",
+    "username": "root",
+    "password": "Esfera@123",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "database": "ENTER_DB_TEST_NAME",
+    "username": "root",
+    "password": null,
+    "host": "127.0.0.1",
+    "dialect": "ENTER_DB_TYPE"
+  },
+  "production": {
+    "database": "heroku_38034b0ac6d41c9",
+    "username": "b7e70715e009f3",
+    "password": "e4c29fa4",
+    "host": "us-cdbr-iron-east-04.cleardb.net",
+    "dialect": "mysql"
+  }
+}

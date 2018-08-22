@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>email template</title>
+</head>
+<body>
+	<table width="50%" style="margin: 0 auto;border: 1px solid #66bd68;text-align: center;" cellpadding="5">
+		<tr style="background-color: #66bc69;">
+			<td colspan="2" style="text-align: center;">
+				<img src="http://localhost:8080/static/logo.png">
+			</td>
+		</tr>
+		<tr></tr><p></p><p></p></tr>
+		<tr><td colspan="2"><h2>Hi {{name}}</h2></td></tr>
+		<tr>
+		<td colspan="2"style="font-size:16px;"></td>
+		</tr>
+		<tr><td>We got a request to reset your Brew pub App password.</td></tr>
+		<tr><td><a href="http://localhost:8080/recoverypassword?id={{id}}&token={{token}}" class="button">Forget Password</a></td></tr>
+		<tr><p></p><p></p></tr>
+		<tr style=" margin-top: 30px; width: 100%;background: #e8e8e8;padding: 20px 0px;">
+			<td colspan="2" style="text-align: center;">
+				Contact Info<br>
+				Email:<a href="#">info@breqpubapp.com</a><br>
+				Website:
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
+<style>
+	.button {
+    background-color:#6aa0f7; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+</style>
